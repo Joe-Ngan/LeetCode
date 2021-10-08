@@ -1,6 +1,5 @@
 package com.company.Homework2.Question1;
 
-import com.company.Homework2.Question2.Sum;
 
 public class Main {
 
@@ -29,13 +28,6 @@ public class Main {
         Square square2 = new Square("Square", "black", 7);
         System.out.println("area:" +square2.getArea()+ "perimeter:" + square2.getPerimeter());
         System.out.println(square2.printShape());
-
-        Sum sum = new Sum();
-        System.out.println(sum.add(2,3));
-        System.out.println(sum.add(4,9,12));
-        System.out.println(sum.add(4,5.0));
-        System.out.println(sum.add(15.5,5));
-        System.out.println(sum.add(1.0,6.4));
 	// write your code here
     }
 }
